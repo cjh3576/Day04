@@ -91,36 +91,9 @@ public class ArrayTest_6 {
 
 			case 4:
 
-				for(int i =0; i<totals.length; i ++) {
-					for(int j = i+1; j<totals.length; j++) {
-						if (totals[i] < totals[j]) {
-							tem = totals[i];
-							totals[i] = totals[j];
-							totals[j] = tem; 
-							//총점
-							temN = name[i];
-							name[i] = name[j];
-							name[j]=temN;
-							//이름
-							tem = number[i];
-							number[i] = number[j];
-							number[j] = tem; 
-							// 번호
-							tem = kor[i];
-							kor[i] = kor[j];
-							kor[j] = tem; 
-							// 국어
-							tem = eng[i];
-							eng[i] = eng[j];
-							eng[j] = tem; 
-							// 영어
-							tem = math[i];
-							math[i] = math[j];
-							math[j] = tem; 
-							// 수학
-						}
-					}
-				}
+			
+					
+				
 				for(int i =0;i<name.length;i++ ) {
 					System.out.println(i+1 + " 번째 학생 이름 : " + name[i]);
 					System.out.println(i+1 + " 번째 학생 번호 : " + number[i]);
