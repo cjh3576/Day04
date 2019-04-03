@@ -14,7 +14,7 @@ public class Array_3_test4 {
 		System.out.println(nums[0][1]);
 		System.out.println(nums[1][0]);
 		
-
+		System.out.println("test");
 
 
 	}
