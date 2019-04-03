@@ -16,7 +16,8 @@ public class Array_3_test4 {
 		
 		System.out.println("test");
 
-
+		
+		System.out.println("fix3_1");
 	}
 
 }
